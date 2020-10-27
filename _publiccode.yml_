@@ -1,0 +1,98 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - applicant-tracking
+  - collaboration
+  - communications
+  - content-management
+dependsOn:
+  open:
+    - name: Java Runtime
+      optional: false
+      version: '1.6.0_43'
+    - name: JBoss EAP
+      optional: false
+      version: '6.1.0'
+    - name: PostgreSQL
+      optional: false
+      version: '9.6'
+description:
+  it:
+    features:
+      - Gestione enti e utenti compilatori
+      - Gestione utenti gestori
+      - Creazione e gestione dinamica dei moduli
+      - Importazione di CSV dinamici per la gestione dei moduli
+    genericName: Portale delle Rilevazioni
+    longDescription: >
+      ### Portale Rilevazioni Contabili
+      Gestione del portale delle rilevazioni contabili per gli Enti del Sistema
+      Piemonte permette di gestire e tenere sotto controlli i dati e comunicare
+      eventuali informazioni. Avviene in n fasi:
+      - Inserimento e Ricerca Enti Compilatori
+        in cui gli enti conpilatori potranno inserire i propri dati personali.
+      - Inserimento e ricerca Utenti Compilatori
+        in cui gli utenti conpilatori potranno inserire i propri dati personali.
+      - Inserimento e ricerca Utenti Gestori
+        in cui gli utenti gestori potranno inserire i propri dati personali.
+      - Inserimento e ricerca della definizione dei Moduli
+        in cui gli utenti gestori potranno costuire i moduli che verranno
+        sottoposti agli utenti compilatori in base ai dati che desiderano
+        reperire.
+      - Inserimento e ricerca della Gestione dei Moduli
+        in cui gli utenti gestori potranno compilare e caricare i moduli oppure
+        comunicare eventuali avvisi.
+    shortDescription: >-
+      Sistema Contabile del Portale Rilevazioni Contabili
+developmentStatus: stable
+intendedAudience:
+  countries:
+    - it
+  scope:
+    - local-authorities
+it:
+  conforme:
+    gdpr: true
+    lineeGuidaDesign: true
+    misureMinimeSicurezza: true
+    modelloInteroperabilita: true
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+  riuso:
+    codiceIPA: r_piemon
+landingURL: 'https://github.com/regione-piemonte/portrilev.git'
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: Regione Piemonte
+  repoOwner: Regione Piemonte
+  authorsFile: AUTHORS.txt
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: true
+maintenance:
+  contacts:
+    - email: michele.perdono@csi.it
+      name: Michele Perdonò
+    - email: giuseppe.dimichele@csi.it
+      name: Giuseppe Di Michele
+  type: internal
+name: Portale Rilevazioni
+applicationSuite: UNICA
+platforms:
+  - web
+releaseDate: '2020-10-31'
+softwareType: standalone/web
+softwareVersion: '1.0.0'
+url: 'https://github.com/regione-piemonte/portrilev'
+usedBy:
+  - Provincia di Torino
+  - Regione Piemonte
+  - Regione Liguria

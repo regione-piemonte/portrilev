@@ -1,4 +1,4 @@
-# INSTALLATION (TODO)
+# INSTALLATION
 
 ## Local environment
 - For the local development/testing environment, at least one AS instance is required. It is not strictly required to have more than one instance of the AS server.
